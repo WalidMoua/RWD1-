@@ -1,0 +1,108 @@
+
+/*Start Walid code start */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&family=Raleway:ital,wght@1,600&display=swap');
+
+body, html {
+font-family: 'Raleway', sans-serif;
+color: #22162B;
+background-color: #FFF4F0;
+}
+.navTweak{
+    margin: 10px 10px 10px 0px;
+    font-size: 10px !important;
+    background-color: transparent;
+    transition: all .2s ease-in-out;
+}
+
+.navTweak:hover{
+    transform: scale(1.1);
+}
+
+nav{
+    background-color: #b0dcee7d;
+    height: 50px;
+    z-index: 99 !important;
+}
+
+    @media screen and (min-width: 768px){
+    .active_Page::after{
+        position: relative;
+        margin: auto;
+        display: block;
+        content: "";
+        width: 100% ;
+        background-color: #AEDAEB;
+        height: 4px;
+        border-radius: 2px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+    #navbarSupportedContent {
+        background-color: #b0dcee7d;
+    }
+}
+
+
+.h1Tweak{
+    position: absolute;
+    top: 40%;
+    z-index: 3;
+    font-family: 'Playfair Display SC', serif;
+}
+
+#hero_container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.457) 0%, rgba(34, 22, 43, 0.148) 100%);
+}
+/*end Walid code */
+
+
+/*start Guilherme code */
+
+h2:before,
+h2:after {
+    background-color: #AEDAEB;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+h2:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h2:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+/*end Guilherme code */
+
+video { object-fit: cover; }
+
+.background_color{
+    background-color: #AEDAEB;
+}
+
+p{
+    font-size: 10px;
+}
+
+footer {
+    background: #212529;
+  }

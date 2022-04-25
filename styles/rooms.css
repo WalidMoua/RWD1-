@@ -1,0 +1,93 @@
+
+
+/* MADE BY JACK :) */
+
+.logo{
+  width: 120px;
+}
+
+
+
+.backGroundColour {
+  background-color: #FFF4F0;
+}
+
+.headerBackGroundColour {
+  background: linear-gradient(to bottom,
+  #22162B,
+      40%,
+      transparent);
+}
+
+.borderRadiusBackGroundColour {
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+
+.maxWith {
+  width: 100%;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+footer {
+  background: #212529;
+}
+
+.fontTitle{
+  font-size: 40px;
+  font-weight: bold;
+}
+.fontAvailable{
+  font-size: 25px;
+  font-weight: 500;
+  float: right;
+}
+.box{
+  background-color: #AEDAEB;
+  width: 100%;
+  max-width: 600px;
+  height: 304px;
+  border-radius: 10px;  
+}
+
+.textTitle{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.textInfo{
+  font-size: 20px;
+}
+.shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  overflow: hidden;
+  text-align: center;
+}
+h1:before,
+h1:after {
+  background-color: #AEDAEB;
+  content: "";
+  display: inline-block;
+  height: 4px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+

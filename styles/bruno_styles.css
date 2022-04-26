@@ -1,0 +1,103 @@
+/*Made By Bruno*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&family=Raleway:ital,wght@1,600&display=swap');
+
+body, html {
+font-family: 'Raleway', sans-serif;
+color: #22162B;
+background-color: #FFF4F0;
+}
+
+footer {
+    background: #212529;
+}
+
+.fontTitle {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.fontAvailable {
+    font-size: 25px;
+    font-weight: 500;
+    float: right;
+}
+
+
+
+h2 {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 75px;
+    color: darkblue;
+}
+
+h2:before,
+h2:after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    background-color: #AEDAEB;
+}
+
+h2:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+h2:after {
+    left: 1em;
+    margin-right: -50%;
+}
+
+
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+h3 {
+    margin-top: 15px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+}
+
+h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #22162B;
+}
+
+.box {
+    background-color: #AEDAEB;
+}
+
+.h1Tweak{
+    position: absolute;
+    top: 40%;
+    z-index: 3;
+    font-family: 'Playfair Display SC', serif;
+}
+
+h4 {
+    color: #212529;
+    font-family: 'Playfair Display SC', serif;
+}

@@ -1,4 +1,3 @@
-
 /*Start Walid code start */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap');
@@ -17,17 +16,6 @@ background-color: #FFF4F0;
     font-family: 'Playfair Display SC', serif;
 }
 
-#hero_container::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.457) 0%, rgba(34, 22, 43, 0.148) 100%);
-}
-
 video { object-fit: cover; }
 
 .background_color{
@@ -35,8 +23,13 @@ video { object-fit: cover; }
 }
 
 p{
-    font-size: 10px;
+    font-size: 15px;
 }
+
+.infoText{
+    font-size: 30px;
+}
+
 
 footer {
     background: #212529;

@@ -1,0 +1,60 @@
+ /* CLAUDIU CARABUS START*/
+
+ /*Container for contact information */
+.information{
+    background-color:#AEDAEB;
+}
+
+/*Container for contact information display*/
+.information2{
+  background-color:#AEDAEB;
+  height: 400px;
+  width: 400px;
+  margin-left: 10%;
+}
+/*Body settings for color */
+body{
+    background-color: #FFF4F0;
+}
+/*Heading 1 settings START*/
+h1 {
+    overflow: hidden;
+    text-align: center;
+  }
+  h1:before,
+  h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px; 
+    vertical-align: middle;
+    width: 50%;
+  }
+  h1:before {
+    margin-left: -50%;
+  }
+  h1:after {
+    margin-right: -50%;
+  }
+/*Heading 1 settings FINISH*/
+
+/*Heading 4 settings for font*/
+h4{
+  font-family:'Playfair Display';
+}
+/*Link settings for color*/
+p a{
+  color: #000;
+}
+/*Heading 5 settings for font*/
+h5{
+  font-family:'Playfair Display';
+}
+/*CLAUDIU CARABUS END*/
+footer{
+  
+    background: #212529;
+}
+
+
+.logo{width: 120px;}

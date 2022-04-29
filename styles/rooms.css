@@ -1,13 +1,41 @@
+/*Start Walid code start */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&family=Raleway:ital,wght@1,600&display=swap');
 
-
-/* MADE BY JACK :) */
-
-.logo{
-  width: 120px;
+body, html {
+font-family: 'Raleway', sans-serif;
+color: #22162B;
+background-color: #FFF4F0;
+padding: 0px;
+margin: 0px;
+overflow-x: hidden;
 }
 
+#hero_container::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.457) 0%, rgba(34, 22, 43, 0.148) 100%);
+}
 
+.h1Tweak{
+  font-family: 'Playfair Display SC', serif;
+  top: 25%;
+}
+@media only screen and (min-width: 600px) {
+  .h1Tweak{
+      top: 50%;
+  }
+  
+}
 
+/*end Walid's code start */
+
+/* MADE BY JACK :) */
 .backGroundColour {
   background-color: #FFF4F0;
 }
@@ -17,6 +45,11 @@
   #22162B,
       40%,
       transparent);
+}
+
+a {
+  text-decoration: none;
+  color: #4abdeb;
 }
 
 .borderRadiusBackGroundColour {

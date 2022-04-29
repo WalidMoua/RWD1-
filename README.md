@@ -1,5 +1,6 @@
 # RWD1-
-A RWD (Responsive webdesign) school 🏫 group project 
+
+A RWD (Responsive web design) school 🏫 group project
 
 <h1> Folder structure (Follow it!)</h1>
 
@@ -27,5 +28,3 @@ A RWD (Responsive webdesign) school 🏫 group project
 ├──aboutUs.html<br>
 ├──README.md<br>
 └──...<br>
-
-

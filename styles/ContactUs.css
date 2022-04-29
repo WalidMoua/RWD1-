@@ -1,3 +1,47 @@
+ /*Start Walid code*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&family=Raleway:ital,wght@1,600&display=swap');
+
+body, html {
+font-family: 'Raleway', sans-serif;
+color: #22162B;
+background-color: #FFF4F0;
+padding: 0px;
+margin: 0px;
+overflow-x: hidden;
+}
+
+#hero_container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.457) 0%, rgba(34, 22, 43, 0.148) 100%);
+}
+
+.h1Tweak{
+    font-family: 'Playfair Display SC', serif;
+    top: 25%;
+}
+@media only screen and (min-width: 600px) {
+    .h1Tweak{
+        top: 50%;
+    }
+    
+}
+
+a {
+  text-decoration: none;
+  color: #4abdeb;
+}
+
+/*End Walid code*/
+ 
+ 
  /* CLAUDIU CARABUS START*/
 
  /*Container for contact information */
@@ -13,9 +57,7 @@
   margin-left: 10%;
 }
 /*Body settings for color */
-body{
-    background-color: #FFF4F0;
-}
+
 /*Heading 1 settings START*/
 h1 {
     overflow: hidden;
@@ -23,7 +65,7 @@ h1 {
   }
   h1:before,
   h1:after {
-    background-color: #000;
+    background-color: #4abdeb;
     content: "";
     display: inline-block;
     height: 1px; 
